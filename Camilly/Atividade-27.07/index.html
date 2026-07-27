@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exemplo de Formulário</title>
+        <link rel="stylesheet" href="../Atividade-27.07/estilo.css">
+    </head>
+    <body>
+        <h1>Formulário de Contato</h1>
+<form action="pagina1.html" method="get">
+
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="Nome" name="Nome" required><br><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefone">Telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone"><br><br>
+
+    <label for="senha">Senha:</label><br>
+    <input type="password" id="senha" name="senha" required><br><br>
+
+    <label for="assunto">Assunto:</label><br><br>
+    <select id="assunto" name="assunto">
+        <option value="dúvida">Dúvida</option>
+        <option value="suporte">Suporte</option>
+        <option value="feedback">Feedback</option>
+    </select><br><br>
+
+    <label>Preferência de Contato</label><br><br>
+    <input type="radio" id="emailContato" name="contato" value="email">
+    <label for="emailContato">E-mail</label><br>
+    <input type="radio" id="telefoneContato" name="contato" value="telefone">
+    <label for="telefoneContato">Telefone</label><br><br>
+
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea><br><br>
+
+    <input type="checkbox" id="termos" name="termos" required>
+    <label for="termos">Aceito os termos</label><br><br>
+
+    <a href="https://www.google.com" target="_blank">Ir para o Google</a><br><br>
+
+    <button type="submit">Enviar</button>
+    
+</form>
+
+
+    </body>
+</html>

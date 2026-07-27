@@ -1,0 +1,41 @@
+h1 {
+    color: brown;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+label {
+    color:firebrick;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+body {
+    background-color:bisque;
+}
+
+input {
+    font-size: 25px;
+}
+
+button {
+    font-size: 25px;
+}
+
+select {
+    font-size: 25px;
+}
+
+input {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
