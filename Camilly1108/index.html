@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para: David</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="Icon" href="IMG/heart.gif" type="image/gif">
+</head>
+<body>
+    <div class="hearts"></div>
+    <div class="container">
+
+        <div class="step active" id="step1">
+            <img src="IMG/AshSnow.gif" alt="Cute Cat" class="cat-img">
+            <h1>David, tenho uma surpresa para você!<br>
+            Deseja continuar?</h1>
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="goToStep2()">Sim</button>
+                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">Não</button>
+            </div>
+        </div>
+
+        <div class="step" id="step2">
+                <h2>Primeiro, nós nos conhecemos no Free Fire.<br>
+                    Uma relação especial, mas eu te tratava muito mal (Me desculpe por isso)</h2>
+                    <p>Em 2023, não tínhamos uma relação tão especial quanto agora.<br>E se naquela época, você me contasse que estariamos assim hoje, eu NUNCA acreditaria.</p>
+                    <p2>Deseja continuar?</p2>
+                <div class="buttons">
+                <button class="btn btn-yes" onclick="goToStep3()">Sim, claro, obviamente</button>
+                <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">Não sei...</button>
+            </div>
+        </div>
+
+
+        <div class="step" id="step3">
+            <img src="IMG/Hugging.gif" alt="Cute Cat in Love" class="cat-img">
+            <h1>Nesse momento, eu quero que você saiba que você é muito importante para mim.<br></h1>
+            <p>Esses dias com você estão sendo os melhores da minha vida.<br>
+            Você é melhor do que eu pensava, mas eu ainda lembro que você me trocava pela Aninha :(<br>
+            Você promete não quebrar meu coraçãozinho de pedra?</p>
+            <div class="buttons">
+                <button class="btn btn-yes" onclick="finalStep()">Sim, eu prometo</button>
+            </div>
+        </div>
+
+            <div class="final-message">
+                <img src="IMG/kisses.gif" alt="Cute Cat in Love" class="cat-img">
+                <h1>Acabou! Você é o amor da minha vida!<br>
+                (Não fique convencido)</h1>
+            </div>   
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
+            
+
+        
